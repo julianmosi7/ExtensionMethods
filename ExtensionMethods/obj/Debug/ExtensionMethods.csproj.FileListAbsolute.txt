@@ -1,0 +1,14 @@
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csprojAssemblyReference.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\MainWindow.g.cs
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\App.g.cs
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods_MarkupCompile.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods_MarkupCompile.lref
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe.config
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.pdb
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\MainWindow.baml
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.g.resources
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.Properties.Resources.resources
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csproj.GenerateResource.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.exe
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.pdb
