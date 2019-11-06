@@ -37,25 +37,46 @@ namespace ExtensionMethods
                 return $"Vorgestern {date.Hour}:{date.Minute}";
             }
 
-            if (date.SameDay(DateTime.Now.AddDays(-1)))
+            else if (date.SameDay(DateTime.Now.AddDays(2)))
+            {
+                return $"Übermorgen {date.Hour}:{date.Minute}";
+            }
+
+            else if (date.SameDay(DateTime.Now.AddDays(-1)))
             {
                 return $"Gestern {date.Hour}:{date.Minute}";
             }
 
-            if (date.SameDay(DateTime.Now))
+            else if (date.SameDay(DateTime.Now))
             {
                 return $"Heute {date.Hour}:{date.Minute}";
             } 
 
-            if (date.SameDay(DateTime.Now.AddDays(1)))
+            else if (date.SameDay(DateTime.Now.AddDays(1)))
             {
                 return $"Morgen {date.Hour}:{date.Minute}";
             }
 
-            if (date.SameMoment(DateTime.Now))
+            else if (date.SameMoment(DateTime.Now))
             {
                 return $"Jetzt";
             }
+
+            else if(span.Hours < 4)
+            {
+                return $"vor {span.Hours} h {span.Minutes} min";
+            }
+
+            else if(span.Hours < -4)
+            {
+                return $"in {span.Hours} h {span.Minutes} min";
+            }
+
+            else
+            {
+                return $"{date.DayOfWeek} {date.Day}.{date.Month} {date.Hour}:{date.Minute}";
+            }
+
         }
 
         public static bool SameDay(this DateTime date, DateTime date2)
