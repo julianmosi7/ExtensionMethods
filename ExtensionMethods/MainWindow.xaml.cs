@@ -36,6 +36,13 @@ namespace ExtensionMethods
             Console.WriteLine(5.Fact());
 
             Console.WriteLine(dateTime = new DateTime(2019, 5, 11));
+
+            Console.WriteLine()
+        }
+
+        public bool m(double d)
+        {
+
         }
     }
 }

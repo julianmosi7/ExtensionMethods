@@ -61,7 +61,7 @@ namespace ExtensionMethods {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
         public static void Main() {
-            MyExtensionMethods.App app = new MyExtensionMethods.App();
+            ExtensionMethods.App app = new ExtensionMethods.App();
             app.InitializeComponent();
             app.Run();
         }

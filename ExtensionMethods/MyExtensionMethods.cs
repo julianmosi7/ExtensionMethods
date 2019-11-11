@@ -88,5 +88,11 @@ namespace ExtensionMethods
         {
             return date2.Day == date.Day && date2.Month == date.Month && date2.Year == date.Year && date.Minute == date2.Minute;
         }
+
+        /*private delegate bool f(double d);
+        public static List<string> UseOnly(this f action)
+        {
+
+        }*/
     }
 }
