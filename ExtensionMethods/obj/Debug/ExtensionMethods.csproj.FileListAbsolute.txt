@@ -12,3 +12,6 @@ C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\Extension
 C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csproj.GenerateResource.cache
 C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.exe
 C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.pdb
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project8\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csproj.CopyComplete

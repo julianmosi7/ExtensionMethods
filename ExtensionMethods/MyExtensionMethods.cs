@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -88,5 +89,87 @@ namespace ExtensionMethods
         {
             return date2.Day == date.Day && date2.Month == date.Month && date2.Year == date.Year && date.Minute == date2.Minute;
         }
+
+        public delegate bool f(string s);
+        public static List<string> UseOnly(this List<string> list, f action)
+        {
+            List<string> listNew = new List<string>();
+            foreach (var item in list)
+            {
+                if (action(item))
+                {
+                    listNew.Add(item);
+                }
+            }
+            return listNew;
+        }
+
+        public delegate bool b(double d);
+        public static List<double> UseOnlyNumbers(this List<double> list, b action)
+        {
+            List<double> listNew = new List<double>();
+            foreach (var item in list)
+            {
+                if (action(item))
+                {
+                    listNew.Add(item);
+                }
+            }
+            return listNew;
+        }
+
+        public delegate bool g<T>(T t);
+        public static List<T> UseOnlyGenerics<T>(this List<T> list, g<T> action)
+        {
+            List<T> listNew = new List<T>();
+            foreach (var item in list)
+            {
+                if (action(item))
+                {
+                    listNew.Add(item);
+                }
+            }
+            return listNew;
+        }
+
+        public delegate string trans(Person p);
+
+        public static List<string> Transform(this List<Person> list, trans action)
+        {
+            List<string> listNew = new List<string>();
+            foreach (var item in list)
+            {
+                listNew.Add(action(item));
+            }
+            return listNew;
+        }
+
+        public delegate string anonyme(Person p);
+        public static string StoreObj(this Person p, anonyme action)
+        {
+            object[] pList = new object[10];
+            
+            pList[0] = action(p);
+            string s = JsonConvert.SerializeObject(pList);
+            return s;
+        }
+
+        public delegate int compare<T>(T x, T y);
+        public static void SortData(this List<string> list, compare<string> action)
+        {
+            for (int j = 0; j < list.Count; j++)
+            {
+                for (int i = 1; i < list.Count; i++)
+                {
+                    if (action(list[i - 1], list[i]) > 0)
+                    {
+                        string s = list[i];
+                        list[i] = list[i - 1];
+                        list[i - 1] = s;
+                    }
+                }
+            }
+        }
+        
     }
 }
